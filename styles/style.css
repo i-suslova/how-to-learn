@@ -181,7 +181,13 @@
   padding-bottom: 20px;
 }
 
+/*ниже обнудение отступа снизу у последнего элемента*/
+.table__text:last-child {
+  padding-bottom: 0;
+}
+
 /*ниже main  блок  feynman*/
+
 .feynman {
   min-height: 890px;
   background-color: #f2f2f2;
@@ -189,6 +195,10 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  background-image: url(../images/feynman.png); /*сделала фоновым для секции feynman*/
+  background-repeat: no-repeat;
+  background-size: 867px 637px;
+  background-position: bottom left;
 }
 
 .feynman__title {
@@ -219,16 +229,6 @@
   position: absolute;
   top: 50%;
   right: 48px;
-}
-
-.feynman-illustration__img {
-  position: absolute;
-  width: 867px;
-  height: 637px;
-  left: 0;
-  bottom: 0;
-  z-index: 0;
-  background-image: url(../images/feynman.png);
 }
 
 /*ниже main  блок  kaufman*/
@@ -317,7 +317,7 @@
   line-height: 25px;
   font-weight: normal;
   margin: 18px 0;
-  color: white;
+  color: #fff;
 }
 
 .footer__column-heading {
@@ -339,26 +339,15 @@
 }
 
 .footer__column-link {
+  /*color: white;*/
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
-  color: white;
+  color: #fff;
 }
 
 .footer__column-links {
   list-style: none;
   margin: 0;
   padding: 0 0 16px 0;
-}
-
-.footer__column-link_youtube {
-  color: #f2f2f2;
-}
-
-.footer__column-link_vk {
-  color: #f2f2f2;
-}
-
-.footer__column-link_tiktok {
-  color: #f2f2f2;
 }
