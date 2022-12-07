@@ -3,7 +3,7 @@
 :star: Первая самостоятельная работа по созданию одностраничного сайта,  
 
 
-сделанная при прохождении обучения в   ![ЯндексПрактикум](https://raw.githubusercontent.com/i-suslova/how-to-learn/bce8c498cdf0eefc6f56fbd4252339ba8dc7141d/images/logo_place_header.svg?token=A4DUMSRLY2HWGHQABBI7AMDDSDKYI).
+сделанная при прохождении обучения в   ![ЯндексПрактикум](https://github.com/i-suslova/how-to-learn/blob/main/images/logo_place_header.svg).
 ________
     
 
