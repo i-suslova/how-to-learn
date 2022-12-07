@@ -1,9 +1,9 @@
 .link {
-    text-decoration: none;
-    opacity: 100%;
-  }
-  
-  .link:hover {
-    opacity: 0.5;
-    transition: 0.4s ease-in;
-  }
+  text-decoration: none;
+  opacity: 100%;
+}
+
+.link:hover {
+  opacity: 0.5;
+  transition: 0.4s ease-in;
+}
